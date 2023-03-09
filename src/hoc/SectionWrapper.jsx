@@ -15,6 +15,7 @@ const SectionWrapper = (Component, idName) =>
         className={`${styles.padding} relative z-0 mx-auto max-w-7xl`}
       >
         <span className="hash-span" id={idName}>
+          {/* Unicode for empty space */}
           &nbsp;
         </span>
 

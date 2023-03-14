@@ -96,6 +96,7 @@ const Contact = () => {
               onChange={handleChange}
               placeholder="What's your name?"
               className="rounded-lg border-none bg-tertiary py-4 px-6 font-medium text-white outline-none placeholder:text-secondary"
+              required
             />
           </label>
           <label className="flex flex-col">
@@ -107,6 +108,7 @@ const Contact = () => {
               onChange={handleChange}
               placeholder="What's your email address?"
               className="rounded-lg border-none bg-tertiary py-4 px-6 font-medium text-white outline-none placeholder:text-secondary"
+              required
             />
           </label>
           <label className="flex flex-col">
@@ -123,7 +125,7 @@ const Contact = () => {
 
           <button
             type="submit"
-            className="w-fit rounded-xl bg-tertiary py-3 px-8 font-bold text-white shadow-md shadow-primary outline-none"
+            className="w-fit rounded-xl bg-tertiary py-3 px-8 font-bold text-white shadow-md shadow-primary outline-none hover:bg-indigo-900"
           >
             {loading ? "Sending..." : "Send"}
           </button>

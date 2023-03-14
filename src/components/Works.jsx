@@ -2,7 +2,7 @@ import Tilt from "react-tilt";
 import { motion } from "framer-motion";
 
 import { styles } from "../styles";
-import { github } from "../assets";
+import { github, liveDark, liveLight } from "../assets";
 import { SectionWrapper } from "../hoc";
 import { projects } from "../constants";
 import { fadeIn, textVariant } from "../utils/motion";
@@ -14,6 +14,7 @@ const ProjectCard = ({
   tags,
   image,
   source_code_link,
+  live_site_link,
 }) => {
   return (
     <motion.div variants={fadeIn("up", "spring", index * 0.5, 0.75)}>
@@ -23,7 +24,7 @@ const ProjectCard = ({
           scale: 1,
           speed: 450,
         }}
-        className="w-full rounded-2xl bg-tertiary p-5 sm:w-[360px]"
+        className="h-[550px] w-full rounded-2xl bg-tertiary p-5 sm:w-[360px]"
       >
         <div className="relative h-[230px] w-full">
           <img
@@ -34,8 +35,19 @@ const ProjectCard = ({
 
           <div className="card-img_hover absolute inset-0 m-3 flex justify-end">
             <div
-              // Opens new tab in the link
-              onClick={() => window.open(source_code_link, "_blank")}
+              // ? Opens new tab in the link
+              onClick={() => window.open(live_site_link, "blank")}
+              className="white-gradient mx-2 flex h-10 w-10 cursor-pointer items-center justify-center rounded-full"
+            >
+              <img
+                src={liveDark}
+                alt="live site"
+                className="h-1/2 w-1/2 object-contain"
+              />
+            </div>
+            <div
+              // ? Opens new tab in the link
+              onClick={() => window.open(source_code_link, "blank")}
               className="black-gradient flex h-10 w-10 cursor-pointer items-center justify-center rounded-full"
             >
               <img
@@ -44,18 +56,6 @@ const ProjectCard = ({
                 className="h-1/2 w-1/2 object-contain"
               />
             </div>
-            {/* TODO: Live Project Link */}
-            {/* <div
-              // Opens new tab in the link
-              onClick={() => window.open(source_code_link, "_blank")}
-              className="black-gradient flex h-10 w-10 cursor-pointer items-center justify-center rounded-full"
-            >
-              <img
-                src={github}
-                alt="source code"
-                className="h-1/2 w-1/2 object-contain"
-              />
-            </div> */}
           </div>
         </div>
 

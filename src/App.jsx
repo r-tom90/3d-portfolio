@@ -11,6 +11,7 @@ import {
   Works,
   StarsCanvas,
 } from "./components";
+// import SocialLink from "./components/SocialLink";
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
           <Navbar />
           <Hero />
         </div>
+        {/* <SocialLink /> */}
         <About />
         <Experience />
         <Tech />

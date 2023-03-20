@@ -10,6 +10,7 @@ import {
   css,
   reactjs,
   redux,
+  solidity,
   styled,
   tailwind,
   nodejs,
@@ -26,7 +27,7 @@ import {
   roofing,
   portfolio,
   store,
-  weather,
+  blockstarter,
   carrent,
   jobit,
   tripguide,
@@ -120,6 +121,10 @@ const technologies = [
     name: "git",
     icon: git,
   },
+  // {
+  //   name: "solidity",
+  //   icon: solidity,
+  // },
   // {
   //   name: "figma",
   //   icon: figma,
@@ -239,6 +244,28 @@ const testimonials = [
 
 const projects = [
   {
+    name: "BlockStarter",
+    description:
+      "This platform boasts an impressive interface coupled with advanced blockchain technology, including Metamask integration, interaction with smart contracts, and the capacity to send Ethereum through the blockchain network with notable features to create, view, and donate to crowdfunding campaigns directly through the blockchain.",
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "tailwind",
+        color: "green-text-gradient",
+      },
+      {
+        name: "solidity",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: blockstarter,
+    source_code_link: "https://github.com/r-tom90/blockstarter",
+    live_site_link: "https://blockstarter-r-tom90.vercel.app",
+  },
+  {
     name: "3D Portfolio",
     description:
       "Visually stunning and responsive websites using industry-standard best practices, including reusable code with Higher Order Components, immersive 3D models with ThreeJS and React Three Fiber, seamless animations with Framer Motion, and website performance across all devices.",
@@ -282,24 +309,7 @@ const projects = [
     source_code_link: "https://github.com/r-tom90/clothing-store",
     live_site_link: "https://my-clothing.vercel.app/",
   },
-  {
-    name: "Weather App",
-    description:
-      "Has a modern and responsive design created with Tailwind CSS. Select Async Paginate is used for the search input, and an accessible accordion is implemented to expand content. The app accesses OpenWeather and GeoDB API points to fetch and display accurate weather information.",
-    tags: [
-      {
-        name: "react",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "tailwind",
-        color: "green-text-gradient",
-      },
-    ],
-    image: weather,
-    source_code_link: "https://github.com/r-tom90/weather-app",
-    live_site_link: "https://my-weather-app-ashen.vercel.app/",
-  },
+
   // {
   //   name: "Car Rent",
   //   description:

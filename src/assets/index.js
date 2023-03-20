@@ -20,6 +20,7 @@ import mongodb from "./tech/mongodb.png";
 import nodejs from "./tech/nodejs.png";
 import reactjs from "./tech/reactjs.png";
 import redux from "./tech/redux.png";
+import solidity from "./tech/solidity.png";
 import styled from "./tech/styled.png";
 import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
@@ -35,7 +36,7 @@ import roofing from "./company/roofing.png";
 
 import portfolio from "./project-portfolio.png";
 import store from "./project-store.png";
-import weather from "./project-weather.png";
+import blockstarter from "./project-blockstarter.png";
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
@@ -62,6 +63,7 @@ export {
   nodejs,
   reactjs,
   redux,
+  solidity,
   styled,
   tailwind,
   typescript,
@@ -75,7 +77,7 @@ export {
   roofing,
   portfolio,
   store,
-  weather,
+  blockstarter,
   carrent,
   jobit,
   tripguide,

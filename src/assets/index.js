@@ -35,6 +35,7 @@ import programming from "./company/programming.png";
 import roofing from "./company/roofing.png";
 
 import portfolio from "./project-portfolio.png";
+import richEtherscan from "./RichEtherscan.png"
 import store from "./project-store.png";
 import blockstarter from "./project-blockstarter.png";
 import carrent from "./carrent.png";
@@ -76,6 +77,7 @@ export {
   programming,
   roofing,
   portfolio,
+  richEtherscan,
   store,
   blockstarter,
   carrent,

@@ -26,6 +26,7 @@ import {
   programming,
   roofing,
   portfolio,
+  richEtherscan,
   store,
   blockstarter,
   carrent,
@@ -243,6 +244,28 @@ const testimonials = [
 ];
 
 const projects = [
+  {
+    name: "RichEtherscan",
+    description:
+      "RichEtherscan is a feature-rich platform that offers a user-friendly interface and utilizes advanced data retrieval from the Ethereum blockchain. Users can easily explore block, transaction, and address history on the Ethereum network using the Alchemy network API.",
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "tailwind",
+        color: "green-text-gradient",
+      },
+      {
+        name: "EthersJS",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: richEtherscan,
+    source_code_link: "https://github.com/r-tom90/blockexplorer",
+    live_site_link: "https://alchemy-w3-blockexplorer.vercel.app/",
+  },
   {
     name: "BlockStarter",
     description:

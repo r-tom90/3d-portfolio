@@ -27,6 +27,8 @@ import {
   roofing,
   portfolio,
   richEtherscan,
+  emporium,
+  muskATears,
   store,
   blockstarter,
   carrent,
@@ -244,6 +246,50 @@ const testimonials = [
 ];
 
 const projects = [
+  {
+    name: "MuskATears",
+    description:
+      "MuskATears is a community Meme Coin project designed to help the community grow and thrive, taking on the narrative of stopping censorship.",
+    tags: [
+      {
+        name: "react/next.js",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "tailwind",
+        color: "green-text-gradient",
+      },
+      {
+        name: "ethers.js",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: muskATears,
+    source_code_link: "https://github.com/r-tom90/muskatears",
+    live_site_link: "https://www.muskatears.com/",
+  },
+  {
+    name: "MuskATears NFT Emporium",
+    description:
+      "MuskATears NFT Emporium allows you to mint, buy and sell NFTs on the Ethereum blockchain, powered by ThirdWebs SDK.",
+    tags: [
+      {
+        name: "next.js",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "tailwind",
+        color: "green-text-gradient",
+      },
+      {
+        name: "ThirdWeb SDK",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: emporium,
+    source_code_link: "https://github.com/r-tom90/marketplace-v3",
+    live_site_link: "https://nfts.muskatears.com/",
+  },
   {
     name: "RichEtherscan",
     description:

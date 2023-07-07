@@ -35,6 +35,8 @@ import programming from "./company/programming.png";
 import roofing from "./company/roofing.png";
 
 import portfolio from "./project-portfolio.png";
+import emporium from "./emporium.png"
+import muskATears from "./MuskATears.png"
 import richEtherscan from "./RichEtherscan.png"
 import store from "./project-store.png";
 import blockstarter from "./project-blockstarter.png";
@@ -77,6 +79,8 @@ export {
   programming,
   roofing,
   portfolio,
+  emporium,
+  muskATears,
   richEtherscan,
   store,
   blockstarter,

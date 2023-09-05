@@ -35,6 +35,7 @@ import programming from "./company/programming.png";
 import roofing from "./company/roofing.png";
 
 import portfolio from "./project-portfolio.png";
+import otHealthCoach from "./otHealthCoach.png"
 import emporium from "./emporium.png"
 import muskATears from "./MuskATears.png"
 import richEtherscan from "./RichEtherscan.png"
@@ -79,6 +80,7 @@ export {
   programming,
   roofing,
   portfolio,
+  otHealthCoach,
   emporium,
   muskATears,
   richEtherscan,

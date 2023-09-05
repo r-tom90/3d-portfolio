@@ -247,6 +247,28 @@ const testimonials = [
 
 const projects = [
   {
+    name: "OT Health Coach",
+    description:
+      "Simple but yet elegant landing page for a health coach with contact form for ease of contact.",
+    tags: [
+      {
+        name: "typescript",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "react",
+        color: "green-text-gradient",
+      },
+      {
+        name: "tailwind",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: muskATears,
+    source_code_link: "https://github.com/r-tom90/OtHealthCoach",
+    live_site_link: "https://www.othealthcoach.com/",
+  },
+  {
     name: "MuskATears",
     description:
       "MuskATears is a community Meme Coin project designed to help the community grow and thrive, taking on the narrative of stopping censorship.",
